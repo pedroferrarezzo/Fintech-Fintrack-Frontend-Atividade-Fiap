@@ -1,2 +1,3 @@
-# fintech-fintrack-fiap-frontend
-Iniciando meus estudos em Frontend (CSS, HTML e JS), desenvolvendo as telas do projeto Fintech
+# Frontend - FinTrack
+Iniciando meus estudos em Frontend (CSS, HTML e JS) na faculdade, neste repositório desenvolvo as telas para o meu projeto
+Fintech, a FinTrack.
