@@ -310,7 +310,7 @@
     display: grid;
     margin-top: 2%;
     grid-template-columns: 100%;
-    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
     grid-template-areas: 
           "header" 
           "google" 
@@ -445,3 +445,127 @@
   }
 }
 
+@media (max-width:450px) {
+  .header-main img {
+    margin-left: 7vmax;
+    max-width: 60%;
+    min-width: 150px;
+  }
+
+  .form-header .field-header{
+    font-size: 2vmin;
+  }
+  
+  .form-header .field-header p{
+    font-size: 8vmin;
+  }
+  
+  .form-header .field-name {
+    font-size: 6vmin;
+  }
+  
+  .form-header .field-lastname {
+    font-size: 5.5vmin;
+  }
+  
+  .form-header .field-email {
+    font-size: 6vmin;
+
+  }
+  
+  .form-header .field-born {
+    font-size: 5.5vmin;
+  }
+
+  .form-header .field-passwd {
+    font-size: 6vmin;
+  }
+  
+  .form-header .field-passwdchk {
+    font-size: 4.8vmin;
+  }
+  
+  .form-header .field-btn-submit {
+    font-size: 5.5vmin;
+    margin-bottom: 4vmin;
+  }
+
+  .form-header .field-btn-eraser {
+    font-size: 4.5vmin;
+  }
+  
+  .form-header .field-google legend {
+    font-size: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6vmin;
+  }
+  
+  .form-header .field-google i {
+    font-size: 10vmin;
+  }
+}
+
+@media (max-height:2400px) and (max-width:1080px){
+
+  .header-main img {
+    margin-left: 7vmax;
+    width: 60%;
+    min-width: 150px;
+  }
+
+  .form-header .field-header{
+    font-size: 2vmin;
+  }
+  
+  .form-header .field-header p{
+    font-size: 8vmin;
+  }
+  
+  .form-header .field-name {
+    font-size: 6vmin;
+  }
+  
+  .form-header .field-lastname {
+    font-size: 5.5vmin;
+  }
+  
+  .form-header .field-email {
+    font-size: 6vmin;
+
+  }
+  
+  .form-header .field-born {
+    font-size: 5.5vmin;
+  }
+
+  .form-header .field-passwd {
+    font-size: 6vmin;
+  }
+  
+  .form-header .field-passwdchk {
+    font-size: 4.8vmin;
+  }
+  
+  .form-header .field-btn-submit {
+    font-size: 5.5vmin;
+    margin-bottom: 4vmin;
+  }
+
+  .form-header .field-btn-eraser {
+    font-size: 4.5vmin;
+  }
+  
+  .form-header .field-google legend {
+    font-size: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6vmin;
+  }
+  
+  .form-header .field-google i {
+    font-size: 10vmin;
+  }
+}

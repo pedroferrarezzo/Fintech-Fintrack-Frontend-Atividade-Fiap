@@ -12,8 +12,9 @@
 .hr-footer {
   width: 50%;
   margin: 0px auto;
-  color: rgb(65, 62, 62);
+  color: black;
   filter: drop-shadow(2px 2px 5px #0000004b);
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .all-rigths, .p-fin, .to-top {
@@ -64,6 +65,25 @@
     }
   }
 
+  @media (max-width:450px) {
+    .to-top {
+      font-size: 4vmin;
+      width: 30vmin;
+    }
+    
+    .all-rigths, .p-fin {
+      font-size: 4vmin;
+    }
+}
 
-
+@media (max-height:2400px) and (max-width:1080px) {
+  .to-top {
+    font-size: 4vmin;
+    width: 30vmin;
+  }
+  
+  .all-rigths, .p-fin {
+    font-size: 4vmin;
+  }
+}
 

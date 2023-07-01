@@ -99,10 +99,6 @@ header {
   height: 15vmin;
 }
 
-.main-header .hero img {
-  z-index: -1;
-}
-
 .main-header .hero-pt2 {
   margin-top: 10vmin;
   font-size: 8vmin;
@@ -257,6 +253,25 @@ header {
 
   .main-header .hero-pt2 .p2 {
     font-size: 6vmin;
+  }
+
+}
+
+@media (max-width:1080px) {
+  .main-header .hero-pt2 .p1 {
+    font-size: 15vmax;
+  }
+
+  .main-header .hero-pt2 .p2 {
+    font-size: 5vmax;
+  }
+
+  .footer-header .btn-header{
+    width: 40vmax;
+  }
+
+  .btn-header a{
+    font-size: 4vmax;
   }
 
 }
