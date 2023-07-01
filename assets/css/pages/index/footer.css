@@ -1,0 +1,69 @@
+
+.header-footer {
+  display: flex;
+  height: 10vmin;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+  gap: 0.5vmin;
+  height: auto;
+}
+
+.hr-footer {
+  width: 50%;
+  margin: 0px auto;
+  color: rgb(65, 62, 62);
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.all-rigths, .p-fin, .to-top {
+  font-size: 2vmin;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.footer-logo {
+  width: 5vmin;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vmin;
+  margin: 0 auto;
+  font-size: 2vmin;
+  background-color: rgb(130, 53, 255);
+  border-radius: 10px;
+  filter: drop-shadow(2px 5px 20px #8400ffcb);
+  animation: scaleAnimation 1.5s infinite alternate;
+  transition: var(0.5s);
+  text-decoration: none;
+  color: white;
+  padding: 0.5vmin;
+  margin-bottom: 4vmin;
+}
+
+.to-top:hover {
+  background-color: transparent;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../../../images/gifs/hover-btn.gif);
+  transform: scale(1.1);
+  filter: drop-shadow(2px 5px 20px #000000);
+  border: 2px groove white;
+  animation: none;
+  transition: var(0.5s);
+}
+
+
+@keyframes scaleAnimation {
+  0% {
+      transform: scale(1);
+    }
+  100% {
+      transform: scale(0.9);
+    }
+  }
+
+
+
+
