@@ -137,7 +137,10 @@
           </fieldset>
 
           <fieldset class="field-name">
-            <label for="nome">Nome</label>
+            <label for="nome"
+              >Nome
+              <i class="fa-solid fa-circle-user" style="color: #ae00ff"></i
+            ></label>
             <input
               type="text"
               id="nome"
@@ -145,11 +148,13 @@
               required
               placeholder="Fulano"
             />
-            <i class="fa-solid fa-circle-user" style="color: #ae00ff"></i>
           </fieldset>
 
           <fieldset class="field-lastname">
-            <label for="sobrenome">Sobrenome</label>
+            <label for="sobrenome"
+              >Sobrenome
+              <i class="fa-solid fa-user-pen" style="color: #ae00ff"></i
+            ></label>
             <input
               type="text"
               id="sobrenome"
@@ -157,11 +162,16 @@
               required
               placeholder="de Tal"
             />
-            <i class="fa-solid fa-user-pen" style="color: #ae00ff"></i>
           </fieldset>
 
           <fieldset class="field-email legend">
-            <label for="email">E-mail</label>
+            <label for="email"
+              >E-mail
+              <i
+                class="fa-solid fa-envelope-open-text"
+                style="color: #ae00ff"
+              ></i
+            ></label>
             <input
               type="email"
               id="email"
@@ -169,14 +179,10 @@
               required
               placeholder="fulanodetal@email.com"
             />
-            <i
-              class="fa-solid fa-envelope-open-text"
-              style="color: #ae00ff"
-            ></i>
           </fieldset>
 
           <fieldset class="field-born">
-            <label for="born">Data de nascimento</label>
+            <label for="born">Data de nascimento <i class="fa-solid fa-cake-candles" style="color: #ae00ff"></i></label>
             <input
               type="date"
               id="born"
@@ -184,11 +190,10 @@
               required
               placeholder="Dia/Mês/Ano"
             />
-            <i class="fa-solid fa-cake-candles" style="color: #ae00ff"></i>
           </fieldset>
 
           <fieldset class="field-passwd">
-            <label for="password">Senha</label>
+            <label for="password">Senha <i class="fa-solid fa-user-lock" style="color: #ae00ff"></i></label>
             <input
               type="password"
               id="password"
@@ -197,11 +202,10 @@
               placeholder="Senh@F0rt3_."
               minlength="8"
             />
-            <i class="fa-solid fa-user-lock" style="color: #ae00ff"></i>
           </fieldset>
 
           <fieldset class="field-passwdchk legend">
-            <label for="passwdchk">Confirme sua senha</label>
+            <label for="passwdchk">Confirme sua senha <i class="fa-solid fa-check-double" style="color: #ae00ff"></i></label>
             <input
               type="password"
               id="passwdchk"
@@ -210,16 +214,15 @@
               placeholder="Senh@F0rt3_."
               minlength="8"
             />
-            <i class="fa-solid fa-check-double" style="color: #ae00ff"></i>
           </fieldset>
 
           <fieldset class="field-btn-submit">
-            <input type="submit" name="" id="" value="Criar Conta" />
+            <input class="btn-submit" type="submit" name="" id="" value="Criar Conta"/>
             <i class="fa-solid fa-square-check"></i>
           </fieldset>
 
           <fieldset class="field-btn-eraser">
-            <input type="reset" name="" id="" value="Limpar Dados" />
+            <input class="btn-eraser" type="reset" name="" id="" value="Limpar Dados" />
             <i class="fa-solid fa-eraser"></i>
           </fieldset>
 
@@ -237,12 +240,15 @@
       ></a>
       <hr class="hr-footer" />
       <header class="header-footer">
-        <p class="all-rigths">Todos os direitos reservados <img
-          class="footer-logo"
-          src="./assets/images/logo/logo-png-color.png"
-          alt="Logo Fintrack"
-          title="Logo Fintrack"
-        /></p>
+        <p class="all-rigths">
+          Todos os direitos reservados
+          <img
+            class="footer-logo"
+            src="./assets/images/logo/logo-png-color.png"
+            alt="Logo Fintrack"
+            title="Logo Fintrack"
+          />
+        </p>
         <p class="p-fin">Fintrack 2023</p>
       </header>
     </footer>

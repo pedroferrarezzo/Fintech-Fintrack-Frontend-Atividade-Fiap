@@ -508,6 +508,14 @@
 }
 
 @media (max-height:2400px) and (max-width:1080px){
+  .form-header {
+    gap: 3vmax;
+  }
+
+  .form-header input {
+    width: 60%;
+  }
+
 
   .header-main img {
     margin-left: 7vmax;
@@ -517,6 +525,11 @@
 
   .form-header .field-header{
     font-size: 2vmin;
+    width: 100%;
+  }
+
+  .form-header input::placeholder {
+    font-size: 5vmin;
   }
   
   .form-header .field-header p{
@@ -525,36 +538,69 @@
   
   .form-header .field-name {
     font-size: 6vmin;
+    display: flex;
+    flex-direction: column;
   }
   
   .form-header .field-lastname {
     font-size: 5.5vmin;
+    display: flex;
+    flex-direction: column;
   }
   
   .form-header .field-email {
     font-size: 6vmin;
+    display: flex;
+    flex-direction: column;
 
   }
   
   .form-header .field-born {
     font-size: 5.5vmin;
+    display: flex;
+    flex-direction: column;
   }
 
   .form-header .field-passwd {
     font-size: 6vmin;
+    display: flex;
+    flex-direction: column;
   }
   
   .form-header .field-passwdchk {
     font-size: 4.8vmin;
+    display: flex;
+    flex-direction: column;
   }
   
   .form-header .field-btn-submit {
     font-size: 5.5vmin;
-    margin-bottom: 4vmin;
+    margin-bottom: 60vmin;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-square-check {
+    order: 1;
+  }
+
+  .btn-submit {
+    order: 2;
   }
 
   .form-header .field-btn-eraser {
     font-size: 4.5vmin;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-eraser {
+    order: 1;
+    font-size: 6vmin;
+  }
+
+  .btn-eraser {
+    order: 2;
   }
   
   .form-header .field-google legend {
@@ -562,10 +608,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 6vmin;
+    margin-bottom: 8vmin;
   }
   
   .form-header .field-google i {
     font-size: 10vmin;
+    width: 30%;
   }
+
 }
