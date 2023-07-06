@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página Inicial - FinTrack</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon-logo-png-color.png" type="image/x-icon" />
+
+  <!-- Link Font Awesome CDN Server -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Google Fonts - Roboto Condensed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <main class="main-login">
+    <div class="welcome">
+      <div class="welcome-inside">
+        <p class="p1">Opa, bem-vindo de volta!</p>
+        <p class="p2">Não criou sua conta ainda? Crie agora!</p>
+        <a class="btn-register" href="../../index.html">Registre-se</a>
+      </div>
+    </div>
+
+    <div class="login">
+      <div class="login-inside">
+        <a href="#"><i class="fa-brands fa-google google-login"></i></a>
+
+        <form class="form-login" id="dados" name="dados" method="post" action="">
+          <fieldset class="field-name-login">
+            <span class="span-field">
+              <i class="fa-solid fa-circle-user" style="color: #ae00ff"></i>
+              <input type="text" id="nome" name="nome" required placeholder="Nome" />
+            </span>
+
+          </fieldset>
+
+          <fieldset class="field-email-login">
+            <span class="span-field">
+              <i class="fa-solid fa-envelope-open-text" style="color: #ae00ff"></i>
+              <input type="email" id="email" name="email" required placeholder="Email" />
+            </span>
+
+          </fieldset>
+
+          <fieldset class="field-password-login">
+            <span class="span-field">
+              <i class="fa-solid fa-user-lock" style="color: #ae00ff"></i>
+              <input type="password" id="password" name="password" required placeholder="Senha" minlength="8" />
+            </span>
+
+          </fieldset>
+
+          <fieldset class="field-enter-login">
+            <input class="btn-enter" type="submit" name="" id="" value="Entrar"/>
+          </fieldset>
+      </div>
+
+    </div>
+  </main>
+</body>
+
+</html>

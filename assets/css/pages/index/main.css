@@ -2,7 +2,6 @@
   background-color: rgb(130, 53, 255);
 }
 
-
 .main-index {
   display: grid;
   grid-template-columns: 45% 54%;
@@ -265,6 +264,13 @@
   transition: 0.5s;
   transform: scale(1.1);
 }
+
+.form-header .field-google a {
+  color: rgb(65, 62, 62);
+  text-decoration: none;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
 
 @media (max-width:1160px){
   .main-index {
@@ -613,7 +619,7 @@
   
   .form-header .field-google i {
     font-size: 10vmin;
-    width: 30%;
+    width: 30vmin;
   }
 
 }
