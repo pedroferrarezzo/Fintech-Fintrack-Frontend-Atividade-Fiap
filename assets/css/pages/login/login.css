@@ -145,7 +145,7 @@
 }
 
 .span-field i {
-  font-size: 2vmin;
+  font-size: 3vmin;
   padding-left: 1vmin;
 }
 
@@ -309,15 +309,7 @@
     font-size: 4vmin;
   }
 
-  .field-email-login i {
-    font-size: 4vmin;
-  }
-
   .field-password-login i {
-    font-size: 4vmin;
-  }
-
-  input::placeholder {
     font-size: 4vmin;
   }
 
@@ -328,6 +320,21 @@
   .google-login {
     font-size: 5vmin;
     width: 20vmin;
+  }
+
+  .login .login-inside .form-login .field-name-login .span-field input::placeholder {
+    font-size: 5vmin;
+    transform:translate3d(0, 15%,0);
+  }
+  
+  .login .login-inside .form-login .field-email-login .span-field input::placeholder {
+    font-size: 5vmin;
+    transform:translate3d(0, 15%,0);
+  }
+  
+  .login .login-inside .form-login .field-password-login .span-field input::placeholder {
+    font-size: 5vmin;
+    transform:translate3d(0, 15%,0);
   }
 
 }

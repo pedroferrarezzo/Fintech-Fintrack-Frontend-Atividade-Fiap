@@ -76,7 +76,7 @@
     }
 }
 
-@media (max-height:2400px) and (max-width:1080px) {
+@media (max-height:2400px) and (max-width:1150px) {
   .to-top {
     font-size: 4vmin;
     width: 30vmin;

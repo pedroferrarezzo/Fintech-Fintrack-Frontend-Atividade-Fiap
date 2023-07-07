@@ -513,13 +513,15 @@
   }
 }
 
-@media (max-height:2400px) and (max-width:1080px){
+@media (max-height:2400px) and (max-width:1150px){
+
   .form-header {
-    gap: 3vmax;
+    gap: 10vmin;
   }
 
   .form-header input {
     width: 60%;
+    height: 100%;
   }
 
 
@@ -565,6 +567,7 @@
     font-size: 5.5vmin;
     display: flex;
     flex-direction: column;
+    height: 110%;
   }
 
   .form-header .field-passwd {
@@ -580,17 +583,18 @@
   }
   
   .form-header .field-btn-submit {
-    font-size: 5.5vmin;
-    margin-bottom: 60vmin;
+    font-size: 4.5vmin;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-bottom: 30vmin;
   }
 
   .fa-square-check {
     order: 1;
   }
 
-  .btn-submit {
+  .field-btn-submit {
     order: 2;
   }
 
@@ -622,4 +626,10 @@
     width: 30vmin;
   }
 
+}
+
+@media (min-width:1100px) {
+  .form-header .field-born {
+    height: 160%;
+  }
 }

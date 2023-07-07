@@ -257,13 +257,13 @@ header {
 
 }
 
-@media (max-width:1080px) {
+@media (max-width:1080px) and (max-height:2400px){
   .main-header .hero-pt2 .p1 {
-    font-size: 15vmax;
+    font-size: 15vmin;
   }
 
   .main-header .hero-pt2 .p2 {
-    font-size: 5vmax;
+    font-size: 5vmin;
   }
 
   .footer-header .btn-header{
