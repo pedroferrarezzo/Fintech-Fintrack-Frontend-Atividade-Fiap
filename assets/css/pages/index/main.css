@@ -184,6 +184,7 @@
   font-size: 1.5vmax;
   text-align: center;
   filter: drop-shadow(2px 2px 5px #0000004b);
+  text-decoration: none;
 }
 
 .form-header .field-btn-submit input {
@@ -193,7 +194,6 @@
   border: 3px solid rgb(65, 62, 62);
   border-radius: 20px;
   transition: 0.5s;
-  
 }
 
 .form-header .field-btn-submit input:hover {
