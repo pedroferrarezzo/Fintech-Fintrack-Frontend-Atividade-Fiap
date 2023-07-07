@@ -1,5 +1,5 @@
 *::selection {
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
 }
 
 .main-index {
@@ -73,7 +73,7 @@
 }
 
 .form-header input:focus {
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   transition: 0.5s;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   color: beige;
@@ -187,9 +187,9 @@
 }
 
 .form-header .field-btn-submit input {
-  color: rgb(255, 255, 255);
+  color: var(--color-white);
   padding: 0.2vmax;
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   border: 3px solid rgb(65, 62, 62);
   border-radius: 20px;
   transition: 0.5s;
@@ -215,9 +215,9 @@
 }
 
 .form-header .field-btn-eraser input {
-  color: rgb(255, 255, 255);
+  color: var(--color-white);
   padding: 0.2vmax;
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   border: 3px solid rgb(65, 62, 62);
   border-radius: 20px;
   transition: 0.5s;
@@ -250,7 +250,7 @@
 .form-header .field-google i {
   margin-top: 1.5vmax;
   font-size: 3vmax;
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   padding: 0.6vmax;
   width: 10vmax;
   border: 3px solid rgb(65, 62, 62);

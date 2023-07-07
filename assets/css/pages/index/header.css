@@ -30,7 +30,7 @@ body {
   --transition: 0.5s;
 }
 
-/* Formatação HEADER - Background */
+
 header {
   background-image: linear-gradient(rgba(119, 34, 255, 0.5), rgba(0, 0, 0, 0.658)), url(../../../images/background.jpg);
   height: 100vh;
@@ -44,7 +44,7 @@ header {
 
 .header nav {
   background-color: var(--background-color-white);
-  color:rgb(255, 255, 255);
+  color: var(--color-white);
   height: 14vh;
 }
 
@@ -151,7 +151,7 @@ header {
     transition: var(--transition);
     transform: scale(1.1);
     filter: drop-shadow(2px 5px 20px #000000);
-    border: 2px groove white;
+    border: 2px groove var(--color-white);
     animation: none;
 }
 
@@ -275,4 +275,3 @@ header {
   }
 
 }
-/* FIM - Formatação NAV - Com Bootstrap */

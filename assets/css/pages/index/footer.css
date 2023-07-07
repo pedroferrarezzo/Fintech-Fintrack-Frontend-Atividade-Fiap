@@ -34,13 +34,13 @@
   width: 20vmin;
   margin: 0 auto;
   font-size: 2vmin;
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   border-radius: 10px;
   filter: drop-shadow(2px 5px 20px #8400ffcb);
   animation: scaleAnimation 1.5s infinite alternate;
   transition: var(0.5s);
   text-decoration: none;
-  color: white;
+  color: var(--color-white);
   padding: 0.5vmin;
   margin-bottom: 4vmin;
 }
@@ -50,7 +50,7 @@
   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../../../images/gifs/hover-btn.gif);
   transform: scale(1.1);
   filter: drop-shadow(2px 5px 20px #000000);
-  border: 2px groove white;
+  border: 2px groove var(--color-white);
   animation: none;
   transition: var(0.5s);
 }

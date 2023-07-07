@@ -17,7 +17,7 @@
 .welcome-inside {
   display: flex;
   flex-direction: column;
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   width: 100%;
   height: 70%;
   border-top-left-radius: 100px;
@@ -97,7 +97,7 @@
   text-align: center;
   margin-top: 1.5vmax;
   font-size: 2vmax;
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   padding: 0.6vmax;
   width: 5vmax;
   border: 3px solid rgb(65, 62, 62);
@@ -159,7 +159,7 @@
   font-size: 1.5vmin;
 }
 .field-name-login input:focus {
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   transition: 0.5s;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   color: beige;
@@ -181,7 +181,7 @@
 }
 
 .field-email-login input:focus {
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   transition: 0.5s;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   color: beige;
@@ -204,7 +204,7 @@
 }
 
 .field-password-login input:focus {
-  background-color: rgb(130, 53, 255);
+  background-color: var(--color-purple);
   transition: 0.5s;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   color: beige;
@@ -215,7 +215,6 @@
   transition: 0.5s;
   color:  rgb(58, 2, 148);
 }
-
 
 .field-enter-login {
   border: 3px solid var(--color-purple);
